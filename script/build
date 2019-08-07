@@ -6,7 +6,7 @@ PLUGIN_NAME="${PLUGIN_NAME:?Must be set in .env}"
 PLUGIN_VERSION="${PLUGIN_VERSION:?Must be set in .env}"
 
 script/deps
-script/test
+#script/test
 
 targets=(
   "osx darwin amd64"
